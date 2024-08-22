@@ -1,0 +1,64 @@
+.history h2 {
+    margin-top: 0;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.history-element-expense {
+    background: rgba(39, 22, 22, 0.5);
+}
+
+.history-element-income {
+    background: rgba(26, 39, 22, 0.66);
+}
+
+.history-element {
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    /*background: #161d27a8;*/
+    margin: 10px 0;
+    min-width: 300px;
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.history-element:hover {
+    filter: brightness(150%) contrast(125%);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.transaction-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 15px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.transaction-date {
+    color: darkgray;
+}
+
+.date-title {
+    margin-left: -1rem;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.category-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.card-container {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(34, 41, 48, 0.35);
+    margin: 20px 0;
+}

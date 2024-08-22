@@ -1,0 +1,60 @@
+.add-transaction {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 30px 0;
+}
+
+.add-transaction {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 50px;
+    border: 2px solid #404040;
+    background: rgba(66, 77, 117, 0.35);
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.add-transaction:hover {
+    filter: brightness(80%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.title {
+    align-self: center;
+    text-align: center;
+}
+
+.charts {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance {
+    margin-left: 50px;
+}
+
+.card-container {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(34, 41, 48, 0.35);
+    margin: 20px 0;
+}
+
+.css-1k2u9zb-MuiChartsAxis-root {
+    display: none;
+}
+
+.css-m5rwh5-MuiBarLabel-root {
+    font-weight: bold !important;
+    fill: whitesmoke !important;
+}
